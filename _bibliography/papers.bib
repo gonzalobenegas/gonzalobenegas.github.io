@@ -1,5 +1,46 @@
 ---
 ---
+@article{Benegas2022.08.22.504706,
+	author = {Gonzalo Benegas and Sanjit Singh Batra and Yun S. Song},
+	title = {DNA language models are powerful predictors of genome-wide variant effects},
+	elocation-id = {2022.08.22.504706},
+	year = {2023},
+	doi = {10.1101/2022.08.22.504706},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {The expanding catalog of genome-wide association studies (GWAS) provides biological insights across a variety of species, but identifying the causal variants behind these associations remains a significant challenge. Experimental validation is both labor-intensive and costly, highlighting the need for accurate, scalable computational methods to predict the effects of genetic variants across the entire genome. Inspired by recent progress in natural language processing, unsupervised pre-training on large protein sequence databases has proven successful in extracting complex information related to proteins. These models showcase their ability to learn variant effects in coding regions using an unsupervised approach. Expanding on this idea, we here introduce the Genomic Pre-trained Network (GPN), a model designed to learn genome-wide variant effects through unsupervised pre-training on genomic DNA sequences. Our model also successfully learns gene structure and DNA motifs without any supervision. To demonstrate its utility, we train GPN on unaligned reference genomes of Arabidopsis thaliana and seven related species within the Brassicales order, and evaluate its ability to predict the functional impact of genetic variants in Arabidopsis thaliana by utilizing allele frequencies from the 1001 Genomes Project and a comprehensive database of GWAS. Notably, GPN outperforms predictors based on popular conservation scores such as phyloP and phastCons. Our predictions for Arabidopsis thaliana can be visualized as sequence logos in the UCSC Genome Browser (https://genome.ucsc.edu/s/gbenegas/gpn-arabidopsis). We provide code (https://github.com/songlab-cal/gpn) to train GPN for any given species using its DNA sequence alone, enabling unsupervised prediction of variant effects across the entire genome.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2023/08/04/2022.08.22.504706},
+	eprint = {https://www.biorxiv.org/content/early/2023/08/04/2022.08.22.504706.full.pdf},
+	journal = {bioRxiv},
+  preview = {gpn.jpg},
+  html={https://www.biorxiv.org/content/10.1101/2022.08.22.504706v3},
+  pdf={https://www.biorxiv.org/content/10.1101/2022.08.22.504706v3.full.pdf},
+  code={https://github.com/songlab-cal/gpn},
+  selected={true},
+}
+
+@article{10.7554/eLife.73520,
+article_type = {journal},
+title = {Robust and annotation-free analysis of alternative splicing across diverse cell types in mice},
+author = {Benegas, Gonzalo and Fischer, Jonathan and Song, Yun S},
+editor = {Eyras, Eduardo and Manley, James L},
+volume = 11,
+year = 2022,
+month = {mar},
+pub_date = {2022-03-01},
+pages = {e73520},
+citation = {eLife 2022;11:e73520},
+doi = {10.7554/eLife.73520},
+url = {https://doi.org/10.7554/eLife.73520},
+abstract = {Although alternative splicing is a fundamental and pervasive aspect of gene expression in higher eukaryotes, it is often omitted from single-cell studies due to quantification challenges inherent to commonly used short-read sequencing technologies. Here, we undertake the analysis of alternative splicing across numerous diverse murine cell types from two large-scale single-cell datasets—the \textit{Tabula Muris} and BRAIN Initiative Cell Census Network—while accounting for understudied technical artifacts and unannotated events. We find strong and general cell-type-specific alternative splicing, complementary to total gene expression but of similar discriminatory value, and identify a large volume of novel splicing events. We specifically highlight splicing variation across different cell types in primary motor cortex neurons, bone marrow B cells, and various epithelial cells, and we show that the implicated transcripts include many genes which do not display total expression differences. To elucidate the regulation of alternative splicing, we build a custom predictive model based on splicing factor activity, recovering several known interactions while generating new hypotheses, including potential regulatory roles for novel alternative splicing events in critical genes like \textit{Khdrbs3} and \textit{Rbfox1}. We make our results available using public interactive browsers to spur further exploration by the community.},
+keywords = {alternative splicing, single-cell RNA-seq, primary motor cortex neurons, Tabula Muris, splicing factors},
+journal = {eLife},
+issn = {2050-084X},
+publisher = {eLife Sciences Publications, Ltd},
+preview={scquint.jpg},
+html = {https://elifesciences.org/articles/73520},
+code={https://github.com/songlab-cal/scquint},
+selected={true},
+}
 
 @string{aps = {American Physical Society,}}
 
