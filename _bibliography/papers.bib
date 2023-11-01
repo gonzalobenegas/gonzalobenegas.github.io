@@ -1,5 +1,28 @@
 ---
 ---
+
+@article{
+doi:10.1073/pnas.2311219120,
+author = {Gonzalo Benegas  and Sanjit Singh Batra  and Yun S. Song },
+title = {DNA language models are powerful predictors of genome-wide variant effects},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {120},
+number = {44},
+pages = {e2311219120},
+year = {2023},
+doi = {10.1073/pnas.2311219120},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2311219120},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2311219120},
+abstract = {The expanding catalog of genome-wide association studies (GWAS) provides biological insights across a variety of species, but identifying the causal variants behind these associations remains a significant challenge. Experimental validation is both labor-intensive and costly, highlighting the need for accurate, scalable computational methods to predict the effects of genetic variants across the entire genome. Inspired by recent progress in natural language processing, unsupervised pretraining on large protein sequence databases has proven successful in extracting complex information related to proteins. These models showcase their ability to learn variant effects in coding regions using an unsupervised approach. Expanding on this idea, we here introduce the Genomic Pre-trained Network (GPN), a model designed to learn genome-wide variant effects through unsupervised pretraining on genomic DNA sequences. Our model also successfully learns gene structure and DNA motifs without any supervision. To demonstrate its utility, we train GPN on unaligned reference genomes of Arabidopsis thaliana and seven related species within the Brassicales order and evaluate its ability to predict the functional impact of genetic variants in A. thaliana by utilizing allele frequencies from the 1001 Genomes Project and a comprehensive database of GWAS. Notably, GPN outperforms predictors based on popular conservation scores such as phyloP and phastCons. Our predictions for A. thaliana can be visualized as sequence logos in the UCSC Genome Browser (https://genome.ucsc.edu/s/gbenegas/gpn-arabidopsis). We provide code (https://github.com/songlab-cal/gpn) to train GPN for any given species using its DNA sequence alone, enabling unsupervised prediction of variant effects across the entire genome.},
+  preview = {gpn_logo.png},
+  altmetric= {true},
+  dimensions={true},
+  html={https://www.pnas.org/doi/10.1073/pnas.2311219120},
+  pdf={https://www.pnas.org/doi/pdf/10.1073/pnas.2311219120?download=true},
+  code={https://github.com/songlab-cal/gpn},
+  selected={true},
+}
+
 @article{benegas2023gpnmsa,
 	author = {Gonzalo Benegas and Carlos Albors and Alan J. Aw and Chengzhong Ye and Yun S. Song},
 	title = {GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction},
@@ -30,26 +53,6 @@
   html={https://www.biorxiv.org/content/10.1101/2023.02.21.529452v1.abstract},
   altmetric= {true},
   dimensions= {true},
-}
-
-@article{Benegas2022.08.22.504706,
-	author = {Gonzalo Benegas and Sanjit Singh Batra and Yun S. Song},
-	title = {DNA language models are powerful predictors of genome-wide variant effects},
-	elocation-id = {2022.08.22.504706},
-	year = {2023},
-	doi = {10.1101/2022.08.22.504706},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {The expanding catalog of genome-wide association studies (GWAS) provides biological insights across a variety of species, but identifying the causal variants behind these associations remains a significant challenge. Experimental validation is both labor-intensive and costly, highlighting the need for accurate, scalable computational methods to predict the effects of genetic variants across the entire genome. Inspired by recent progress in natural language processing, unsupervised pre-training on large protein sequence databases has proven successful in extracting complex information related to proteins. These models showcase their ability to learn variant effects in coding regions using an unsupervised approach. Expanding on this idea, we here introduce the Genomic Pre-trained Network (GPN), a model designed to learn genome-wide variant effects through unsupervised pre-training on genomic DNA sequences. Our model also successfully learns gene structure and DNA motifs without any supervision. To demonstrate its utility, we train GPN on unaligned reference genomes of Arabidopsis thaliana and seven related species within the Brassicales order, and evaluate its ability to predict the functional impact of genetic variants in Arabidopsis thaliana by utilizing allele frequencies from the 1001 Genomes Project and a comprehensive database of GWAS. Notably, GPN outperforms predictors based on popular conservation scores such as phyloP and phastCons. Our predictions for Arabidopsis thaliana can be visualized as sequence logos in the UCSC Genome Browser (https://genome.ucsc.edu/s/gbenegas/gpn-arabidopsis). We provide code (https://github.com/songlab-cal/gpn) to train GPN for any given species using its DNA sequence alone, enabling unsupervised prediction of variant effects across the entire genome.Competing Interest StatementThe authors have declared no competing interest.},
-	URL = {https://www.biorxiv.org/content/early/2023/08/04/2022.08.22.504706},
-	eprint = {https://www.biorxiv.org/content/early/2023/08/04/2022.08.22.504706.full.pdf},
-	journal = {PNAS, in press},
-  preview = {gpn_logo.png},
-  altmetric= {true},
-  dimensions={true},
-  html={https://www.biorxiv.org/content/10.1101/2022.08.22.504706v3},
-  pdf={https://www.biorxiv.org/content/10.1101/2022.08.22.504706v3.full.pdf},
-  code={https://github.com/songlab-cal/gpn},
-  selected={true},
 }
 
 @article{10.7554/eLife.73520,
