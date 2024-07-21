@@ -1,18 +1,9 @@
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Computational Biology
-      institution: University of California, Berkeley
-      year: 2023
-      description:
-        - (expected to graduate December 2023)
-    - title: Licentiate in Computer Science
-      institution: University of Buenos Aires, Argentina
-      year: 2018
-
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Scholar, EECS
+      institution: University of California, Berkeley
+      year: 2024
     - title: Software Engineer
       institution: Autodesk
       year: 2015 - 2016
@@ -20,12 +11,12 @@
       institution: Synthicity
       year: 2014 - 2015
 
-- title: Teaching
+- title: Education
   type: time_table
   contents:
-    - title: "BIOENG C131: Introduction to Computational Molecular and Cell Biology"
+    - title: PhD in Computational Biology
       institution: University of California, Berkeley
-      year: 2021
-    - title: "CMPBIO 293: Doctoral Seminar in Computational Biology"
-      institution: University of California, Berkeley
-      year: 2020
+      year: 2023
+    - title: Licentiate in Computer Science
+      institution: University of Buenos Aires, Argentina
+      year: 2018

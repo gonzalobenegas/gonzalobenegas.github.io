@@ -1,6 +1,33 @@
 ---
 ---
 
+@article{benegas2024genomic,
+  title={Genomic Language Models: Opportunities and Challenges},
+  author={Benegas*, Gonzalo and Ye*, Chengzhong and Albors*, Carlos and Li*, Jianan Canal and Song, Yun S},
+  journal={arXiv preprint arXiv:2407.11435},
+  year={2024},
+  abstract={Large language models (LLMs) are having transformative impacts across a wide range of scientific fields, particularly in the biomedical sciences. Just as the goal of Natural Language Processing is to understand sequences of words, a major objective in biology is to understand biological sequences. Genomic Language Models (gLMs), which are LLMs trained on DNA sequences, have the potential to significantly advance our understanding of genomes and how DNA elements at various scales interact to give rise to complex functions. In this review, we showcase this potential by highlighting key applications of gLMs, including fitness prediction, sequence design, and transfer learning. Despite notable recent progress, however, developing effective and efficient gLMs presents numerous challenges, especially for species with large, complex genomes. We discuss major considerations for developing and evaluating gLMs.},
+  html={https://arxiv.org/abs/2407.11435},
+  pdf={https://arxiv.org/pdf/2407.11435},
+  selected={true},
+  preview={tig_review.png},
+}
+
+@article{gpnmsa,
+  title={GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction},
+  author={Benegas, Gonzalo and Albors, Carlos and Aw, Alan J and Ye, Chengzhong and Song, Yun S},
+  journal={bioRxiv},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory Preprints},
+	doi = {10.1101/2023.10.10.561776},
+  abstract={Whereas protein language models have demonstrated remarkable efficacy in predicting the effects of missense variants, DNA counterparts have not yet achieved a similar competitive edge for genome-wide variant effect predictions, especially in complex genomes such as that of humans. To address this challenge, we here introduce GPN-MSA, a novel framework for DNA language models that leverages whole-genome sequence alignments across multiple species and takes only a few hours to train. Across several benchmarks on clinical databases (ClinVar, COSMIC, OMIM), experimental functional assays (DMS, DepMap), and population genomic data (gnomAD), our model for the human genome achieves outstanding performance on deleteriousness prediction for both coding and non-coding variants.},
+  html={https://www.biorxiv.org/content/10.1101/2023.10.10.561776v2},
+  pdf={https://www.biorxiv.org/content/10.1101/2023.10.10.561776v2.full.pdf},
+  code={https://github.com/songlab-cal/gpn},
+  selected={true},
+  preview = {gpn-msa.png},
+}
+
 @article{
 doi:10.1073/pnas.2311219120,
 author = {Gonzalo Benegas  and Sanjit Singh Batra  and Yun S. Song },
@@ -21,22 +48,6 @@ abstract = {The expanding catalog of genome-wide association studies (GWAS) prov
   pdf={https://www.pnas.org/doi/pdf/10.1073/pnas.2311219120?download=true},
   code={https://github.com/songlab-cal/gpn},
   selected={true},
-}
-
-@article{benegas2023gpnmsa,
-	author = {Gonzalo Benegas and Carlos Albors and Alan J. Aw and Chengzhong Ye and Yun S. Song},
-	title = {GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction},
-	year = {2023},
-	doi = {10.1101/2023.10.10.561776},
-	journal = {bioRxiv},
-  abstract = {Whereas protein language models have demonstrated remarkable efficacy in predicting the effects of missense variants, DNA counterparts have not yet achieved a similar competitive edge for genome-wide variant effect predictions, especially in complex genomes such as that of humans. To address this challenge, we here introduce GPN-MSA, a novel framework for DNA language models that leverages whole-genome sequence alignments across multiple species and takes only a few hours to train. Across several benchmarks on clinical databases (ClinVar, COSMIC, and OMIM) and population genomic data (gnomAD), our model for the human genome achieves outstanding performance on deleteriousness prediction for both coding and non-coding variants.},
-  html = {https://www.biorxiv.org/content/10.1101/2023.10.10.561776v1},
-  pdf = {https://www.biorxiv.org/content/10.1101/2023.10.10.561776v1.full.pdf},
-  code={https://github.com/songlab-cal/gpn},
-  selected={true},
-  altmetric= {true},
-  dimensions={true},
-  preview = {gpn-msa.png},
 }
 
 @article {Mok2023.02.21.529452,
