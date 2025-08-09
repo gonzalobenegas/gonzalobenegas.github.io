@@ -39,7 +39,21 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
+
+            <!-- Social -->
+            {%- if page.social %}
+              <div class="social">
+                <div class="contact-icons">
+                  {% include social.html %}
+                </div>
+
+                <div class="contact-note">
+                  {{ site.contact_note }}
+                </div>
+              </div>
+            {%- endif %}
           </div>
+
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
@@ -57,20 +71,6 @@ layout: default
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
-          {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
           {%- endif %}
         </article>
 
