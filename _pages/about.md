@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoc @ UC Berkeley
+subtitle: Research Scientist @ Open Athena
 
 profile:
   align: right
