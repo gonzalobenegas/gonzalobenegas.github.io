@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Scientist @ Open Athena
+#subtitle: Research Scientist @ Open Athena
+subtitle: ""
 
 profile:
   align: right
