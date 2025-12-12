@@ -1,6 +1,22 @@
 ---
 ---
 
+@article{ye2025predicting,
+  title={Predicting functional constraints across evolutionary timescales with phylogeny-informed genomic language models},
+  author={Ye*, Chengzhong and Benegas*, Gonzalo and Albors, Carlos and Li, Jianan Canal and Prillo, Sebastian and Fields, Peter D and Clarke, Brian and Song, Yun S},
+  journal={bioRxiv},
+  pages={2025--09},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory},
+  abstract={Genomic language models (gLMs) have emerged as a powerful approach for learning genome-wide functional constraints directly from DNA sequences. However, standard gLMs adapted from natural language processing often require extremely large model sizes and computational resources, yet still fall short of classical evolutionary models in predictive tasks. Here, we introduce GPN-Star (Genomic Pretrained Network with Species Tree and Alignment Representation), a biologically grounded gLM featuring a phylogeny-aware architecture that leverages whole-genome alignments and species trees to model evolutionary relationships explicitly. Trained on alignments spanning vertebrate, mammalian, and primate evolutionary timescales, GPN-Star achieves state-of-the-art performance across a wide range of variant effect prediction tasks in both coding and non-coding regions of the human genome. Analyses across timescales reveal task-dependent advantages of modeling more recent versus deeper evolution. To demonstrate its potential to advance human genetics, we show that GPN-Star substantially outperforms prior methods in prioritizing pathogenic and fine-mapped GWAS variants; yields unprecedented enrichments of complex trait heritability; and improves power in rare variant association testing. Extending beyond humans, we train GPN-Star for five model organisms – Mus musculus, Gallus gallus, Drosophila melanogaster, Caenorhabditis elegans, and Arabidopsis thaliana – demonstrating the robustness and generalizability of the framework. Taken together, these results position GPN-Star as a scalable, powerful, and flexible new tool for genome interpretation, well suited to leverage the growing abundance of comparative genomics data.},
+  html={https://doi.org/10.1101/2025.09.21.677619},
+  pdf={https://www.biorxiv.org/content/10.1101/2025.09.21.677619v1.full.pdf},
+  code={https://github.com/songlab-cal/gpn},
+  talk={https://www.youtube.com/embed/cEI18jU3Wk8?si=THuYg69VSKAwE4Ml},
+  preview={gpnstar.png},
+  selected={true},
+}
+
 @article{benegas2025dna,
   title={A DNA language model based on multispecies alignment predicts the effects of genome-wide variants},
   author={Benegas, Gonzalo and Albors, Carlos and Aw, Alan J and Ye, Chengzhong and Song, Yun S},
@@ -12,6 +28,7 @@
   html={https://www.nature.com/articles/s41587-024-02511-w},
   pdf={https://www.nature.com/articles/s41587-024-02511-w.pdf},
   code={https://github.com/songlab-cal/gpn},
+  talk={https://www.youtube.com/embed/IaHgzHnDxvs?si=_j3im6LgnhhL7U8f},
   selected={true},
   preview = {gpnmsa.png},
 }
@@ -39,12 +56,13 @@
   selected={false},
 }
 
-@article{albors2025phylogenetic,
+@inproceedings{albors2025phylogenetic,
   title={A Phylogenetic Approach to Genomic Language Modeling},
   author={Albors, Carlos and Li, Jianan Canal and Benegas, Gonzalo and Ye, Chengzhong and Song, Yun S},
-  journal={arXiv preprint arXiv:2503.03773},
+  booktitle={International Conference on Research in Computational Molecular Biology},
+  pages={99--117},
   year={2025},
-  selected={false},
+  organization={Springer}
 }
 
 @article{
@@ -66,6 +84,7 @@ abstract = {The expanding catalog of genome-wide association studies (GWAS) prov
   html={https://www.pnas.org/doi/10.1073/pnas.2311219120},
   pdf={https://www.pnas.org/doi/pdf/10.1073/pnas.2311219120?download=true},
   code={https://github.com/songlab-cal/gpn},
+  talk={https://www.youtube.com/embed/p1c-Fa1Zqh8?si=Ykcpf12GHfP-R7ME&amp;start=5383},
   selected={true},
 }
 

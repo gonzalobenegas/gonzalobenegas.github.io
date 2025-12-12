@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Scientist at Open Athena | AI for Science
+subtitle: Research Scientist at Open Athena
 
 profile:
   align: right
@@ -19,4 +19,5 @@ social: true  # includes social icons at the bottom of the page
 I enjoy doing applied ML research, especially drawing connections between fields.
 In the last couple years, I've been developing DNA language models to predict the effect of genetic mutations in humans and plants.
 
-I hold a PhD in Computational Biology from UC Berkeley and a Licentiate in Computer Science from the University of Buenos Aires.
+I received a PhD in Computational Biology from UC Berkeley, advised by [Yun S. Song](https://people.eecs.berkeley.edu/~yss/).
+I received a Licentiate in Computer Science from the University of Buenos Aires.

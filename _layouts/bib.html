@@ -185,6 +185,9 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          {%- if entry.talk %}
+            <a class="talk btn btn-sm z-depth-0" role="button">Talk</a>
+          {%- endif %}
           </div>
           {% if site.badges %}
           <div class="badges">
@@ -228,6 +231,15 @@
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
+          </div>
+          {%- endif %}
+
+          {% if entry.talk -%}
+          <!-- Hidden talk video block -->
+          <div class="talk hidden">
+            <div class="video-container" style="text-align: center; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+              <iframe src="{{ entry.talk }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
           </div>
           {%- endif %}
         </div>
