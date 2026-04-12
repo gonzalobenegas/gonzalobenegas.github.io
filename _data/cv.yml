@@ -1,9 +1,15 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Postdoctoral Scholar, EECS
+    - title: Research Scientist
+      institution: Open Athena
+      year: 2025 - Present
+    - title: Postdoctoral Researcher, EECS
       institution: University of California, Berkeley
-      year: 2024 - Present
+      year: 2024 - 2025
+    - title: Graduate Student Researcher
+      institution: University of California, Berkeley
+      year: 2018 - 2023
     - title: Software Engineer
       institution: Autodesk
       year: 2015 - 2016
@@ -17,6 +23,32 @@
     - title: PhD in Computational Biology
       institution: University of California, Berkeley
       year: 2023
-    - title: Licentiate in Computer Science
-      institution: University of Buenos Aires, Argentina
+    - title: BS+MS in Computer Science
+      institution: University of Buenos Aires
       year: 2018
+
+- title: Awards
+  type: time_table
+  contents:
+    - title: "Reviewers' Choice Poster, ASHG Annual Meeting"
+      year: 2023
+    - title: "Best poster, runner-up, Center for Computational Biology Annual Retreat"
+      year: 2022
+    - title: "Secondary School Exchange Scholar, English-Speaking Union"
+      year: 2011
+    - title: "Second Top Score in Argentina, Cambridge AICE Diploma"
+      year: 2010
+    - title: "Top Score in Argentina, Cambridge AS Level Mathematics"
+      year: 2010
+    - title: "Top Score in Argentina, Cambridge AS Level Biology"
+      year: 2010
+    - title: "Honorable Mention, Argentine National Mathematical Olympiad"
+      year: 2010
+    - title: "Champion, Buenos Aires Province Mathematical Olympiad"
+      year: 2010
+    - title: "Top Score in Argentina, Cambridge IGCSE Chemistry"
+      year: 2009
+    - title: "Top Score in Argentina, Cambridge IGCSE Biology"
+      year: 2009
+    - title: "Champion, Buenos Aires Province Mathematical Olympiad"
+      year: 2009

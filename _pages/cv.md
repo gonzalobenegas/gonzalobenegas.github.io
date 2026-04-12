@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: false
 nav_order: 4
-cv_pdf: 
+cv_pdf: Gonzalo_Benegas_CV.pdf
 description: 
 toc:
   sidebar: left
